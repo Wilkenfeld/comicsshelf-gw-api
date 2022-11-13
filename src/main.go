@@ -14,7 +14,7 @@ func main() {
 	log.Print("Starting server...")
 	app := fiber.New()
 	log.Print("Starting CouchDB driver...")
-	client, err := kivik.New("couch", "https://comicsshelf-couchdb-jwayycdwga-oa.a.run.app/")
+	client, err := kivik.New("couch", "https://admin:password@comicsshelf-couchdb-jwayycdwga-oa.a.run.app/")
 	if err != nil {
 		log.Fatal(err)
 	}
