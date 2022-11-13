@@ -1,0 +1,2 @@
+FROM couchdb
+EXPOSE 5984 4369 9100
